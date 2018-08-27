@@ -1,20 +1,20 @@
-
+//Calculate the sleep debt for an individual:
 const getSleepHours = day => {
   if (day === 'monday') {
-    return 1;
+    return 7;
   } else if (day === 'tuesday') {
-    return 2;
+    return 7;
   } else if (day === 'wednesday') {
-    return 3;
+    return 9;
   }
     else if (day === 'thursday') {
-    return 4;
+    return 8;
   }
     else if (day === 'friday') {
-    return 5;
+    return 6;
   }
     else if (day === 'saturday') {
-    return 6;
+    return 10;
   }
    else if (day === 'sunday') {
     return 7;
